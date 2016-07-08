@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hvh.erp.dao.TblEmpMapper">
+	<resultMap id="BaseResultMap" type="com.hvh.erp.pojo.TblEmp">
+		<id column="uuid" jdbcType="BIGINT" property="uuid" />
+		<result column="userName" jdbcType="VARCHAR" property="username" />
+		<result column="pwd" jdbcType="VARCHAR" property="pwd" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+		<result column="email" jdbcType="VARCHAR" property="email" />
+		<result column="tele" jdbcType="VARCHAR" property="tele" />
+		<result column="address" jdbcType="VARCHAR" property="address" />
+		<result column="gender" jdbcType="INTEGER" property="gender" />
+		<result column="birthday" jdbcType="BIGINT" property="birthday" />
+		<result column="depUuid" jdbcType="BIGINT" property="depuuid" />
+		<result column="lastLoginTime" jdbcType="BIGINT" property="lastlogintime" />
+		<result column="lastLoginIp" jdbcType="VARCHAR" property="lastloginip" />
+		<result column="loginTimes" jdbcType="INTEGER" property="logintimes" />
+	</resultMap>
+</mapper>
